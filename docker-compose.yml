@@ -5,7 +5,7 @@ services:
     container_name: mvp-proxy
     restart: always
     ports:
-      - 80:80
+      - 8080:80
     volumes:
       - ./mvp-db.conf:/etc/nginx/conf.d/mvp-db.conf
       - ./mvp-paymybuddy.conf:/etc/nginx/conf.d/mvp-paymybuddy.conf
