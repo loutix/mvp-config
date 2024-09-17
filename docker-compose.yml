@@ -11,7 +11,6 @@ services:
       - ./mvp-paymybuddy.conf:/etc/nginx/conf.d/mvp-paymybuddy.conf
     networks:
       - applications-network
-
   #*********** NETWORK ***********
 networks:
   applications-network:
